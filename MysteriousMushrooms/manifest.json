@@ -1,0 +1,10 @@
+﻿{
+  "Name": "MysteriousMushrooms",
+  "Author": "kotae",
+  "Version": "1.0.0",
+  "Description": "Reverts the once-per-day change to the mushroom floor in the mines",
+  "UniqueID": "kotae.MysteriousMushrooms",
+  "EntryDll": "MysteriousMushrooms.dll",
+  "MinimumApiVersion": "3.3.0",
+  "UpdateKeys": [ "GitHub:kotae4/MysteriousMushrooms" ]
+}

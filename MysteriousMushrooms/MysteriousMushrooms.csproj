@@ -13,6 +13,7 @@
     <EnableHarmony>true</EnableHarmony>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <EnableModDeploy>false</EnableModDeploy>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>

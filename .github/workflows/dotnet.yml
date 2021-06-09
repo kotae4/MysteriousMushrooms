@@ -31,7 +31,7 @@ jobs:
         echo ugly-workaround > "MysteriousMushrooms/StardewModdingAPI.exe"
       
     - name: Build
-      run: msbuild MysteriousMushrooms.sln /p:Configuration=Release
+      run: msbuild MysteriousMushrooms.sln /p:Configuration=Release;EnableModDeploy=false;GamePath=MysteriousMushrooms
       
     - name: Upload Release Artifact
       if: ${{ github.event_name == 'push' }}

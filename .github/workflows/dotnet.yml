@@ -23,15 +23,9 @@ jobs:
       
     - name: Restore NuGet Packages
       run: nuget restore MysteriousMushrooms.sln
-
-    - name: SMAPI-Prebuild-Workaround
-      shell: cmd
-      run: |
-        echo ugly-workaround > "MysteriousMushrooms/Stardew Valley.exe"
-        echo ugly-workaround > "MysteriousMushrooms/StardewModdingAPI.exe"
       
     - name: Build
-      run: msbuild MysteriousMushrooms.sln /p:Configuration=Release;EnableModDeploy=false;GamePath=MysteriousMushrooms
+      run: msbuild MysteriousMushrooms.sln /p:Configuration=Release
       
     - name: Upload Release Artifact
       if: ${{ github.event_name == 'push' }}

@@ -11,7 +11,7 @@ namespace kotae.MysteriousMushrooms
 {
     public class MineShaft_Patched
     {
-        private static IMonitor Monitor;
+        private static IMonitor? Monitor;
 
         public static void Initialize(IMonitor monitor)
         {
@@ -25,11 +25,11 @@ namespace kotae.MysteriousMushrooms
                 if (MineShaft.mushroomLevelsGeneratedToday != null)
                     MineShaft.mushroomLevelsGeneratedToday.Clear();
                 else
-                    Monitor.Log("mushroomLevelsGeneratedToday hashset is null, cannot perform.", LogLevel.Error);
+                    Monitor?.Log("mushroomLevelsGeneratedToday hashset is null, cannot perform.", LogLevel.Error);
             }
             catch (Exception ex)
             {
-                Monitor.Log($"Failed in {nameof(chooseLevelType_Postfix)}:\n{ex}", LogLevel.Error);
+                Monitor?.Log($"Failed in {nameof(chooseLevelType_Postfix)}:\n{ex}", LogLevel.Error);
             }
         }
     }

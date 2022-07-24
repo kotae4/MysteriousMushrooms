@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysteriousMushrooms", "MysteriousMushrooms\MysteriousMushrooms.csproj", "{C4C9DEDD-8C84-4D84-8E5C-55756E53ABB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysteriousMushrooms", "MysteriousMushrooms\MysteriousMushrooms.csproj", "{58559D3D-03DC-4E66-8AFC-C1E754111621}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4C9DEDD-8C84-4D84-8E5C-55756E53ABB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4C9DEDD-8C84-4D84-8E5C-55756E53ABB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4C9DEDD-8C84-4D84-8E5C-55756E53ABB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4C9DEDD-8C84-4D84-8E5C-55756E53ABB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58559D3D-03DC-4E66-8AFC-C1E754111621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58559D3D-03DC-4E66-8AFC-C1E754111621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58559D3D-03DC-4E66-8AFC-C1E754111621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58559D3D-03DC-4E66-8AFC-C1E754111621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D0D79551-B8E2-4E67-A682-AFF05EE2CB26}
+		SolutionGuid = {CF58A5A0-9002-4BD2-B65D-9F14A503000C}
 	EndGlobalSection
 EndGlobal

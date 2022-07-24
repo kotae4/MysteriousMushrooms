@@ -11,20 +11,20 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Netcode;
 using StardewModdingAPI.Utilities;
-using Harmony;
+using HarmonyLib;
 
 namespace kotae.MysteriousMushrooms
 {
     public class ModEntry : Mod
     {
-        IModHelper _Helper;
+        IModHelper? _Helper;
 
         public override void Entry(IModHelper helper)
         {
             _Helper = helper;
             MineShaft_Patched.Initialize(this.Monitor);
 
-            var harmony = HarmonyInstance.Create(this.ModManifest.UniqueID);
+            var harmony = new Harmony(this.ModManifest.UniqueID);
 
             harmony.Patch(
                 original: AccessTools.Method(typeof(StardewValley.Locations.MineShaft), nameof(StardewValley.Locations.MineShaft.chooseLevelType)),

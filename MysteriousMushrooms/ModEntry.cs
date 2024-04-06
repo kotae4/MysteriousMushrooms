@@ -17,7 +17,7 @@ namespace kotae.MysteriousMushrooms
 {
     public class ModEntry : Mod
     {
-        IModHelper? _Helper;
+        IModHelper _Helper;
 
         public override void Entry(IModHelper helper)
         {
